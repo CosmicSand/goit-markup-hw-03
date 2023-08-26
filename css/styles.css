@@ -281,8 +281,8 @@ body {
 
 .team-list {
   display: flex;
-  justify-content: space-between;
   column-gap: 24px;
+  object-fit: fill;
 }
 
 /* Ширину для класу team-member додав виключно для естетики. !!!НЕ ЗАБУТИ ВІДРЕДАГУВАТИ!!!*/
