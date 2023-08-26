@@ -178,6 +178,10 @@ body {
   margin-right: auto;
   width: calc(100% - 2 * 472px);
 } */
+.hero-align {
+  flex-direction: column;
+}
+
 .hero-title {
   color: var(--hero-title-color);
   font-size: 56px;
@@ -261,6 +265,10 @@ body {
   padding-bottom: 120px;
   background-color: var(--team-bgcolor);
 }
+.team-align {
+  flex-direction: column;
+}
+
 .team-title {
   text-align: center;
   font-size: 36px;
@@ -312,7 +320,9 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-
+.portfolio-align {
+  flex-direction: column;
+}
 .portfolio-list {
   display: flex;
   column-gap: 24px;
