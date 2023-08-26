@@ -313,6 +313,7 @@ body {
   display: flex;
   justify-content: space-between;
   column-gap: 24px;
+  flex-wrap: wrap;
 }
 
 .portfolio-title {
@@ -322,6 +323,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--portfolio-title-color);
+  margin-bottom: 72px;
 }
 .portfolio-list-item {
   text-align: center;
