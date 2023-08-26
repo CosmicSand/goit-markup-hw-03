@@ -130,13 +130,14 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 .menu-list-link {
   font-weight: 500;
   color: var(--menu-list-link-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .menu-list-link:hover,
 .menu-list-link:focus {
