@@ -34,6 +34,9 @@
   --body-font-family: 'Roboto', sans-serif;
   --logo-font-family: 'Raleway', sans-serif;
 }
+/* * {
+  border: 1px solid black;
+} */
 
 h1,
 h1,
@@ -64,13 +67,22 @@ img {
 .list {
   list-style-type: none;
 }
+/* Загальний контейнер, який буде застосовуватісь в різних секціях. Йому завдані: фіксована шіріна, автовирівнювання всього контейнера по цетру сторінки та внутрішні відступи справа та зліва */
+
 .container {
+  display: flex;
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
+/* Для оформлення хедера клас, який по суті розширює оформлення яке завдано у .container. */
 
+.page-header-container {
+  display: flex;
+  justify-content: space-between;
+}
 /* Для кнопки - ручка) та фон */
 
 button {
@@ -86,7 +98,14 @@ body {
   background-color: var(--body-bgcolor);
 }
 
-/* Header. Вибір шріфта, його ваги, розміру, коліру та ефекти hover/focus для посилання WebStudio. Зміна кольору слова Web */
+/* Header. Вибір шріфта, його ваги, розміру, коліру та ефекти hover/focus для посилання WebStudio. Зміна кольору слова Web. Задання вертикального розміру, так як задаються внутрішні вертикальні відступи. Рамка товщіною 1 піксел та нижній зовнішній відступ */
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+  margin-bottom: 2px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 
 .head-logo {
   font-family: var(--logo-font-family);
@@ -96,6 +115,7 @@ body {
   color: var(--logo-color);
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-right: 76px;
 }
 .logo-head {
   color: var(--logo-second-half-color);
@@ -109,7 +129,17 @@ body {
   font-style: normal;
 }
 /* Зміни навігаційних посилань: колір, вага. Додавання ефектів hover/focus */
-
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 40px;
+}
 .menu-list-link {
   font-weight: 500;
   color: var(--menu-list-link-color);
@@ -121,6 +151,13 @@ body {
   color: var(--menu-list-link-hover-color);
 }
 /* Зміни контактних посилань: колір. Додавання ефектів hover/focus. Вага за замовчанням правильна. */
+
+.contact-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 40px;
+}
 
 .contact-list-link {
   font-size: 16px;
@@ -139,6 +176,15 @@ body {
   background-color: var(--hero-bgcolor);
   color: var(--hero-text-color);
   text-align: center;
+  width: 1440px;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+.hero-title-align {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+  width: 496px;
 }
 .hero-title {
   color: var(--hero-title-color);
@@ -153,6 +199,8 @@ body {
   background-color: var(--hero-button-bgcolor);
   line-height: 1.5;
   letter-spacing: 0.04em;
+  border: none;
+  padding: 16px 32px;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -161,11 +209,42 @@ body {
 
 /* Секція Benefits */
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.benefits {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  border: 2px solid tomato;
+}
+.benefits-contayner {
+  display: flex;
+  justify-content: space-between;
+
+  /* align-items: center; */
+}
+
+.benefits-list {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  column-gap: 24px;
+}
 .benefits-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
   color: var(--benefits-list-title-color);
 }
 .benefits-list-text {
@@ -176,7 +255,10 @@ body {
 /* Секція Team. Змінили фон секції, виправілі після цього фон комірок на білий та задали їх ширину. Текст вирівняли по центру як заголовка секції так і всередині комірок */
 
 .team {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: var(--team-bgcolor);
+  border: 2px solid teal;
 }
 .team-title {
   text-align: center;
