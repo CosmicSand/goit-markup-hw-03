@@ -349,7 +349,14 @@ body {
 /* Footer. Змінено фон, колір лого та розмір його шрифту. Додані hover/focus */
 .page-footer {
   background-color: var(--page-footer-bgcolor);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
+.page-footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .foot-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -358,7 +365,9 @@ body {
   letter-spacing: 0.03em;
   font-size: 18px;
   color: var(--foot-logo-color);
+  margin-bottom: 16px;
 }
+
 .foot-logo:hover,
 .foot-logo:focus {
   color: var(--foot-logo-hover-color);
@@ -368,6 +377,7 @@ body {
 }
 
 .foot-text {
+  width: 264px;
   letter-spacing: 0.02em;
   color: var(--foot-text-color);
   line-height: 1.5;
