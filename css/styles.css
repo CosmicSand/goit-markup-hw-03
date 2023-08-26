@@ -285,7 +285,7 @@ body {
 
 .team-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 /* Ширину для класу team-member додав виключно для естетики. !!!НЕ ЗАБУТИ ВІДРЕДАГУВАТИ!!!*/
