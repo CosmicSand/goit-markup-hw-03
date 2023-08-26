@@ -94,8 +94,8 @@ body {
 .page-header {
   border-bottom: 1px solid #e7e9fc;
   margin-bottom: 2px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 
 .head-logo {
@@ -130,13 +130,13 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 40px;
+  padding: 24px 0;
 }
 .menu-list-link {
   font-weight: 500;
   color: var(--menu-list-link-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0;
 }
 .menu-list-link:hover,
 .menu-list-link:focus {
@@ -149,6 +149,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .contact-list-link {
@@ -331,6 +332,12 @@ body {
   color: var(--portfolio-title-color);
   margin-bottom: 72px;
 }
+.portfolio-description {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
 
 .portfolio-name {
   font-weight: 500;
@@ -338,16 +345,14 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--portfolio-name-color);
-  margin-top: 32px;
   margin-bottom: 8px;
-  margin-left: 16px;
+  /* margin-left: 16px; */
   text-align: left;
 }
 .portfolio-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-left: 16px;
-  margin-bottom: 32px;
+  /* margin-left: 16px; */
   text-align: left;
 }
 
