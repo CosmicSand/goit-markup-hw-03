@@ -34,6 +34,7 @@
   --body-font-family: 'Roboto', sans-serif;
   --logo-font-family: 'Raleway', sans-serif;
 }
+
 h1,
 h1,
 h3,
@@ -63,6 +64,12 @@ img {
 .list {
   list-style-type: none;
 }
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
 
 /* Для кнопки - ручка) та фон */
 
@@ -82,7 +89,7 @@ body {
 /* Header. Вибір шріфта, його ваги, розміру, коліру та ефекти hover/focus для посилання WebStudio. Зміна кольору слова Web */
 
 .head-logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--logo-font-family);
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
