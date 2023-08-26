@@ -286,9 +286,15 @@ body {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
-.member-picture {
+/* .member-picture {
   margin-bottom: 32px;
+} */
+
+.cart-description {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
+
 .team-members-name {
   font-weight: 500;
   font-size: 20px;
@@ -300,7 +306,6 @@ body {
 .team-member-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
 }
 
 /* Секція portfolio */
