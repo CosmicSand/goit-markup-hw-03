@@ -171,19 +171,25 @@ body {
   padding-top: 188px;
   padding-bottom: 188px;
 }
-.hero-title-align {
+/* .hero-title-align {
   margin-left: auto;
   margin-right: auto;
   width: calc(100% - 2 * 472px);
-}
+} */
 .hero-title {
   color: var(--hero-title-color);
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 496px;
 }
 .hero-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 500;
   font-size: 16px;
   color: var(--hero-button-text-color);
@@ -192,6 +198,8 @@ body {
   letter-spacing: 0.04em;
   border: none;
   padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
 }
 .hero-button:hover,
 .hero-button:focus {
