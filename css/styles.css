@@ -350,6 +350,7 @@ body {
   padding-bottom: 32px;
   padding-left: 16px;
   padding-right: 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio-name {
