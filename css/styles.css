@@ -243,7 +243,10 @@ body {
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
-  column-gap: 24px;
+  gap: 24px;
+}
+.benefits-list-item {
+  width: calc((100% - 72px) / 4);
 }
 .benefits-list-title {
   font-weight: 500;
@@ -282,7 +285,6 @@ body {
 .team-list {
   display: flex;
   column-gap: 24px;
-  object-fit: fill;
 }
 
 /* Ширину для класу team-member додав виключно для естетики. !!!НЕ ЗАБУТИ ВІДРЕДАГУВАТИ!!!*/
