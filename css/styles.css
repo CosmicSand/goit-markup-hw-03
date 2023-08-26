@@ -326,9 +326,7 @@ body {
   color: var(--portfolio-title-color);
   margin-bottom: 72px;
 }
-/* .portfolio-list-item {
-  text-align: center;
-} */
+
 .portfolio-name {
   font-weight: 500;
   font-size: 20px;
