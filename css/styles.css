@@ -396,6 +396,8 @@ body {
   padding-bottom: 100px;
 }
 
+/* Вимога автоперевірки щодо зміни типу елементу div. Не завсім зрозуміла, відверто кажучи. Можна було зробити так, як у закоментованому коді. */
+
 .page-footer-container {
   display: inline-block;
   padding-left: 155px;
