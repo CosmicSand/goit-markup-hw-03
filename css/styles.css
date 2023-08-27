@@ -398,9 +398,10 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 .page-footer-container {
   display: inline-block;
-  padding-left: 150px;
+  padding-left: 155px;
   /* flex-direction: column;
   align-items: flex-start;
   row-gap: 16px; */
@@ -422,6 +423,7 @@ body {
 .foot-logo:focus {
   color: var(--logo-hover-color);
 }
+
 .logo-part {
   color: var(--foot-logo-part-color);
 }
