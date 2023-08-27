@@ -117,10 +117,13 @@ body {
   color: var(--logo-hover-color);
 }
 
+/* Прибирання курсиву, так як тег address за замовчанням має font-style: italic */
+
 .head-address {
   font-style: normal;
 }
-/* Зміни навігаційних посилань: колір, вага. Додавання ефектів hover/focus */
+/* Зміни навігаційних посилань: колір, вага. Додавання ефектів hover/focus.  */
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -128,7 +131,6 @@ body {
 }
 .menu-list {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   gap: 40px;
   /* padding: 24px 0; */
