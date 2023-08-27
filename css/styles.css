@@ -122,31 +122,33 @@ body {
 .head-address {
   font-style: normal;
 }
-/* Зміни навігаційних посилань: колір, вага. Додавання ефектів hover/focus.  */
+/* Зміни навігаційних посилань: колір, вага. Додавання ефектів hover/focus. Контейнер menu типу flex створено, щоб блокові елементи, що вкладені у тег nav (посилання та список), не були один під одним. В цьому контейнері два flex елемента (a та ul). Це значить, що всі властивості з класу menu будуть діяті ліше на них */
 
 .menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+/* Клас  menu-list типу flex (flex-контейнер) потрібен, щоб рядки списку не стояли один пид одним. В цьому контейнері три flex-елемента - рядки списку = > всі властивості контейнера розповсюджуються на ці три елемента */
+
 .menu-list {
   display: flex;
   align-items: center;
   gap: 40px;
-  /* padding: 24px 0; */
+  padding: 24px 0;
 }
 .menu-list-link {
   font-weight: 500;
   color: var(--menu-list-link-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0;
+  /* padding: 24px 0;  */
 }
 .menu-list-link:hover,
 .menu-list-link:focus {
   color: var(--menu-list-link-hover-color);
 }
-/* Зміни контактних посилань: колір. Додавання ефектів hover/focus. Вага за замовчанням правильна. */
+/* Зміни контактних посилань: колір. Додавання ефектів hover/focus. Вага за замовчанням правильна. Використання flex-контейнера для розміщення елементів списку в один рядок */
 
 .contact-list {
   display: flex;
