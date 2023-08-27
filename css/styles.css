@@ -338,6 +338,7 @@ body {
 }
 
 /* Секція portfolio */
+
 .portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -364,6 +365,7 @@ body {
   color: var(--portfolio-title-color);
   margin-bottom: 72px;
 }
+
 .portfolio-description {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -380,13 +382,12 @@ body {
   letter-spacing: 0.02em;
   color: var(--portfolio-name-color);
   margin-bottom: 8px;
-  /* margin-left: 16px; */
   text-align: left;
 }
+
 .portfolio-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* margin-left: 16px; */
   text-align: left;
 }
 
