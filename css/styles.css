@@ -110,9 +110,11 @@ body {
   letter-spacing: 0.03em;
   margin-right: 76px;
 }
+
 .logo-head {
   color: var(--logo-second-half-color);
 }
+
 .head-logo:hover,
 .head-logo:focus {
   color: var(--logo-hover-color);
@@ -130,6 +132,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 /* Клас  menu-list типу flex (flex-контейнер) потрібен, щоб рядки списку не стояли один пид одним. В цьому контейнері три flex-елемента - рядки списку = > всі властивості контейнера розповсюджуються на ці три елемента */
 
 .menu-list {
@@ -138,6 +141,7 @@ body {
   gap: 40px;
   padding: 24px 0;
 }
+
 .menu-list-link {
   font-weight: 500;
   color: var(--menu-list-link-color);
@@ -145,10 +149,12 @@ body {
   letter-spacing: 0.02em;
   /* padding: 24px 0;  */
 }
+
 .menu-list-link:hover,
 .menu-list-link:focus {
   color: var(--menu-list-link-hover-color);
 }
+
 /* Зміни контактних посилань: колір. Додавання ефектів hover/focus. Вага за замовчанням правильна. Використання flex-контейнера для розміщення елементів списку в один рядок */
 
 .contact-list {
@@ -165,6 +171,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--contact-list-link-color);
 }
+
 .contact-list-link:hover,
 .contact-list-link:focus {
   color: var(--contact-list-link-hover-color);
@@ -199,6 +206,7 @@ body {
   margin-right: auto;
   max-width: 496px;
 }
+
 .hero-button {
   display: block;
   margin-left: auto;
@@ -271,6 +279,7 @@ body {
 /* Секція Team. Змінили фон секції, виправілі після цього фон комірок на білий та задали їх ширину. Текст вирівняли по центру як заголовка секції так і всередині комірок */
 
 .team {
+  width: 1440px;
   padding-top: 120px;
   padding-bottom: 120px;
   background-color: var(--team-bgcolor);
