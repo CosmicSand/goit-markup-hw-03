@@ -15,11 +15,8 @@
   --hero-button-hover-bgcolor: #404bbf;
   --benefits-list-title-color: #2e2f42;
   --team-bgcolor: #f4f4fd;
-  --team-title-color: #2e2f42;
+  --team-portfolio-text-color: #2e2f42;
   --team-member-bgcolor: #fff;
-  --team-member-name-color: #2e2f42;
-  --portfolio-title-color: #2e2f42;
-  --portfolio-name-color: #2e2f42;
   --page-footer-bgcolor: #2e2f42;
   --foot-logo-part-color: #f4f4fd;
   --foot-text-color: #f4f4fd;
@@ -327,7 +324,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--team-member-name-color);
+  color: var(--team-portfolio-text-color);
   margin-bottom: 8px;
   text-align: center;
 }
@@ -362,7 +359,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--portfolio-title-color);
+  color: var(--team-portfolio-text-color);
   margin-bottom: 72px;
 }
 
@@ -380,7 +377,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--portfolio-name-color);
+  color: var(--team-portfolio-text-color);
   margin-bottom: 8px;
   text-align: left;
 }
