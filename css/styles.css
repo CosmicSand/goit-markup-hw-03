@@ -180,7 +180,6 @@ body {
   background-color: var(--hero-bgcolor);
   color: var(--hero-text-color);
   text-align: center;
-  /* width: 1440px; */
   padding-top: 188px;
   padding-bottom: 188px;
 }
