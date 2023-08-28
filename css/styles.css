@@ -396,8 +396,6 @@ body {
   padding-bottom: 100px;
 }
 
-/* Вимога автоперевірки щодо зміни типу елементу div. Не завсім зрозуміла, відверто кажучи. Можна було зробити так, як у закоментованому коді. Клас container не має сенсу, якщо я все вірно розумію */
-
 .page-footer-container {
   display: inline-block;
   /* flex-direction: column;
