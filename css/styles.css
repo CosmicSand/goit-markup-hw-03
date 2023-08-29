@@ -178,7 +178,7 @@ body {
 
 .hero {
   background-color: var(--hero-bgcolor);
-  color: var(--hero-text-color);
+  color: var(--hero-title-color);
   text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
